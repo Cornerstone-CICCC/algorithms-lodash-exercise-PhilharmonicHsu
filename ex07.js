@@ -8,6 +8,6 @@ const people = [
   { name: 'Jim', age: 20 }
 ];
 
-// your code here
+const sortedPeople = _.orderBy(people, "age");
 
 console.log(sortedPeople); // Expected output: [{ name: 'Jane', age: 30 }, { name: 'John', age: 25 }, { name: 'Jim', age: 20 }]
