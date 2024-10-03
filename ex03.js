@@ -4,6 +4,8 @@ const _ = require('lodash');
 
 const numbers = [1, 3, 5, 7, 9];
 
-// your code here
+const filteredNumber = _.filter(numbers, num => num >= 7)
+
+const firstGreaterThanFive = _.head(filteredNumber)
 
 console.log(firstGreaterThanFive); // Expected output: 7
